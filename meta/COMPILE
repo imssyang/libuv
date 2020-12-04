@@ -1,0 +1,6 @@
+
+# Compiles
+sh autogen.sh
+./configure --prefix=/opt/libuv --disable-static
+make
+make install
